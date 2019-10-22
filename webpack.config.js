@@ -21,7 +21,7 @@ module.exports = {
     filename: 'js/[name].[contenthash].js',
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: ['.tsx', '.ts', '.js', '.json'],
   },
   performance: {
     hints: false,
